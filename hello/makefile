@@ -6,7 +6,7 @@ LDFLAGS= -lz
 
 all: $(TARGET)
 helloYocto: helloYocto.o
-	$(CC) $(CFLAGS) -o $@ $^ 
+	$(CC) $(CFLAGS) -o videotectrial 
 
 zlibtest: zlibtest.o
 	$(CC) $(CFLAGS1) -o $@ $^ $(LDFLAGS)
